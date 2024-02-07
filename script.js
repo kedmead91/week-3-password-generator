@@ -13,10 +13,10 @@ function writePassword() {
 
 function passwordLength() {
   //Stores user input in a variable for length of password
-  var passwordLength = prompt("What length do you want your password to be?");
+  var passwordLength = prompt("Please enter a number between 8 and 128 for the length of your password");
   //if passwordLength input is less than 8 or greater than 20 asks again for password length input
-  if (passwordLength < 8 || passwordLength > 128) {
-    prompt("Please enter a number greater than 8 and smaller than 20");
+  if (passwordLength < 8 || passwordLength > 128 || passwordLength == null) {
+    confirm("Try again");
   } else {
     chooseCharacters();
   }
@@ -41,13 +41,14 @@ function chooseCharacters() {
 
 function generatePassword() {
   return "password";
-
+  //TODO write if statement for this function
   //creates the available characters
   var lowercase = "abcdefghijklmnopqrstuvwxyz";
   var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var specialCharacters = "!,#$%&'()*+,-./:;<=>?@[]^_`{|}~";
   var numbers = "0123456789";
+  writePassword();
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", passwordLength); //writePassword);
