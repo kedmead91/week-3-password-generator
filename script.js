@@ -22,7 +22,7 @@ function passwordLength() {
   }
 }
 
-//asks the user what types of characters that they want 
+//asks the user what types of characters that they would like
 //if user fails to choose one type the function is ran again so they can choose
 
 function chooseCharacters() {
