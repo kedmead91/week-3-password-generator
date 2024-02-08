@@ -6,7 +6,7 @@ To create a random password generator to meet this user story:
 
 Link to deployed application:
 
-
+https://kedmead91.github.io/week-3-password-generator/
 
 ## User Story
 
