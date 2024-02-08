@@ -4,6 +4,10 @@ Task:
 
 To create a random password generator to meet this user story:
 
+Link to deployed application:
+
+
+
 ## User Story
 
 AS AN employee with access to sensitive data
@@ -39,6 +43,14 @@ I found that the overall function structure made more sense to me after research
 
 What I found Hard:
 I had some issues with the syntax at times as I created the code and I kept getting an unrefined error message back so I had to break up some of the code by commenting out parts of it and using console.log to see where the error was coming from especially as I used multiple functions at first but found it easier when I had it all in just the one generatePassword function.
+
+Screenshots: 
+
+https://github.com/kedmead91/week-3-password-generator/blob/main/Screenshot%202024-02-08%20110949.png
+
+https://github.com/kedmead91/week-3-password-generator/blob/main/Screenshot%202024-02-08%20112951.png
+
+https://github.com/kedmead91/week-3-password-generator/blob/main/Screenshot%202024-02-08%20113024.png
 
 ## Acceptance Criteria
 
